@@ -1,0 +1,199 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+
+// ≥992px
++media-breakpoint-down(md)
+  .first__ttl
+    font-size: 60px
+    line-height: 60px
+  .second__pic
+    height: 25vh
+  .price__tbl
+    padding: 5px
+  .price__item-b
+    margin-top: 51px
+  .second__pic
+    overflow: hidden
+
+    
+// ≥768px
++media-breakpoint-down(sm)
+  .header__burger
+    display: block
+    position: relative
+    width: 30px
+    height: 20px
+    position: relative
+    z-index: 3
+    position: absolute
+    right: 20px
+    top: 20px
+  .header__burger::before
+    content: ''
+    background-color: #fff
+    position: absolute
+    left: 0
+    width: 100%
+    height: 2px
+    transition: all .3s ease
+  .header__burger::after
+    content: ''
+    background-color: #fff
+    position: absolute
+    width: 100%
+    height: 2px
+    left: 0
+    transition: all .3s ease
+  .header__burger::before
+    top: 0
+  .header__burger::after
+    bottom: 0
+  .header__burger span
+    position: absolute
+    background-color: #fff
+    left: 0
+    width: 100%
+    height: 2px
+    top: 9px
+    transition: all .3s ease
+  .second__pic
+    overflow: hidden
+  .menu
+    display: none
+    margin-top: 58px
+    position: absolute
+    background-color: #5ee7df
+    left: 0
+    z-index: 7
+    width: 100%
+  .active
+    display: block
+  .menu__link
+    width: 100%
+    padding: 0
+    margin: 0
+  .menu__list
+    display: block
+  .third__r
+    margin: auto auto
+  .logo__link
+    padding: 0 20px
+  .menu__link
+    padding: 0 20px
+  .menu__list
+    margin-bottom: 0
+  .first__left
+    margin-top: 67px
+  .second__ttl
+    line-height: 35px
+  .second__more-p
+    line-height: 23px
+  .third__blc-p
+    line-height: 20px!important
+  .third__pic
+    max-width: 94%
+  .price__points
+    margin-bottom: 22px
+  .price__item-b
+    margin-top: 36px
+  .price__sub
+    margin-bottom: 14px
+  .second__pic
+    border-radius: 10px
+  .second__pic
+    height: 19vh
+  .second__box-pic
+    margin-top: 9px
+  .third__r
+    margin-top: 50px
+    margin-left: 14px
+  .price__top-black, .price__top, .price__bottom-lnk, .price__bottom-lnk-b
+    line-height: 42px
+  .price__bottom, .price__bottom-black, .price__number, .price__number-plus, .price__point, .price__sub, .price__sub-black, .price__tbl, .price__text, .price__text-black, .price__top, .price__top-black, .price__bottom-lnk-b, .price__bottom-lnk
+    font-size: 13px!important
+  .fotter__item:last-child
+    margin-left: 10px
+  .fotter
+    flex-direction: column
+  .fotter__txt
+    margin-bottom: 0
+  .fotter__link
+    margin-bottom: 10px
+  .fotter__pic
+    max-width: 12%
+  .third
+    flex-direction: column
+  .third__r
+    margin: 0
+    padding: 0
+    text-align: center
+  .price__item
+    margin: auto
+  .price__item:first-child
+    margin-bottom: 20px
+  .fotter__item:last-child
+    margin: 20px 0 0 0
+
+
+// ≥576px
++media-breakpoint-down(xs)
+  .third
+    flex-direction: column
+  .third__r
+    margin: 0
+    padding: 0
+    text-align: center
+    margin-top: 10px
+  .first__ttl
+    font-size: 42px
+    line-height: 50px
+  .first__link
+    margin-bottom: 10px
+  .second__ttl, .third__ttl
+    max-width: 100%
+  .second__more-p:last-child
+    display: none
+  .second__box-pic
+    flex-direction: column
+  .second__more-p
+    margin-bottom: 5px
+    margin-right: 0
+    flex-basis: 100%
+  .second__link, .fotter__link
+    display: block
+    text-align: center
+    margin-right: 0
+  .third__l
+    flex-basis: 100%
+  .second__pic
+    height: 25vh
+  .price__items
+    flex-direction: column
+  .price__item-b
+    margin-top: 0
+    border-radius: 17px 17px 17px 17px
+  .price__bottom-lnk-b
+    border-radius: 0 0 17px 17px
+  .price__ttl
+    display: none
+  .fotter
+    padding-top: 0
+  .price__sub
+    margin-bottom: 0
+  .price__sub-black
+    margin: 0 auto
+  .price__text
+    margin: 0px auto
+  .price__bottom-lnk, .price__bottom-lnk-b, .price__top, .price__top-black
+    line-height: 30px
+  .price__item-w
+    margin-bottom: 5px
+  .fotter__group
+    flex-direction: column
+  .fotter__pic
+    margin: 10px
