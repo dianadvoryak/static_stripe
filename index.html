@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>stripe</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+
+
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/assets/css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="libs/assets/css/style.css" type="text/css">
+	<link rel="stylesheet" href="libs/assets/css/examples.css" type="text/css">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<script type="text/javascript" src="libs/assets/js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="libs/assets/js/lib/highlight.pack.js"></script>
+	<script type="text/javascript" src="libs/assets/js/lib/modernizr.custom.min.js"></script>
+	<script type="text/javascript" src="libs/assets/js/examples.js"></script>
+
+	<script type="text/javascript" src="libs/assets/js/lib/gsap3/gsap.min.js"></script>
+	<script type="text/javascript" src="libs/scrollmagic/uncompressed/ScrollMagic.js"></script>
+	<script type="text/javascript" src="libs/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+	<script type="text/javascript" src="libs/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+
+
+</head>
+
+<body>
+
+		<div id="content-wrapper">
+			<div id="example-wrapper">
+				<div class="scrollContent">
+					<section id="titlechart">
+						<div id="des">
+							<div class="container">
+								<div class="first">
+									<header class="header">
+										<div class="logo">
+											<a class="logo__link" href="index.html">stripe</a>
+										</div>
+										<nav class="menu">
+											<ul class="menu__list">
+												<li class="menu__item"><a class="menu__link" href="#second_s">Products</a></li>
+												<li class="menu__item"><a class="menu__link" href="#second_s">Use cases</a></li>
+												<li class="menu__item"><a class="menu__link" href="#second_s">Developers</a></li>
+												<li class="menu__item"><a class="menu__link" href="#second_s">Company</a></li>
+												<li class="menu__item"><a class="menu__link" href="#second_s">Pricing</a></li>
+											</ul>
+										</nav>
+										<div class="header__burger">
+						          <span></span>
+						        </div>
+									</header>
+									<div class="first__screen">
+										<div class="first__left">
+											<h1 class="first__ttl">Payments infrastructure for the internet</h1>
+											<p class="second__more-p">Millions of companies of all sizes—from startups to Fortune 500s—use Stripe’s software and APIs to accept payments, send payouts, and manage their businesses online.</p>
+											<a class="first__link" href="#second_s">Start now</a>
+											<a class="first__link" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Contact sales</a>
+											<!-- Modal -->
+											<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+											  <div class="modal-dialog">
+											    <div class="modal-content">
+											      <div class="modal-header">
+											        <h5 class="modal-title" id="exampleModalLabel">With Stripe you can:</h5>
+											        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											      </div>
+											      <div class="modal-body second__more-p">
+															Focus critical developer resources on your core business<br>
+															Launch new products faster with less payments code<br>
+															Improve conversion from international customers<br>
+															<div class="mod-ttl">Developer tools</div>
+															Get up and running with libraries, keys, and integration tools.<br>
+															<div class="mod-ttl">Security</div>
+															Strengthen your integration security and learn about sensitive data.<br>
+															<div class="mod-ttl">Account</div>
+															Activate, manage, and configure your account.<br>
+											      </div>
+											      <div class="modal-footer">
+											        <button type="button" class="btn first__link" data-bs-dismiss="modal">Close</button>
+											      </div>
+											    </div>
+											  </div>
+											</div>
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="first__right">
+								<img class="first__pic" src="img/pexels-anna-nekrashevich-6801649.jpg" alt="img">
+							</div>
+						</div>
+					</section>
+					<section class="demo" id="section-slides">
+						<style type="text/css">
+							#pinContainer {
+								width: 100%;
+								height: 100%;
+								overflow: hidden;
+								-webkit-perspective: 1000;
+								        perspective: 1000;
+							}
+							#slideContainer {
+								width: 400%; /* to contain 4 panels, each with 100% of window width */
+								height: 100%;
+							}
+							.panel {
+								height: 100%;
+								width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
+								float: left;
+							}
+						</style>
+						<div id="pinContainer">
+							<div id="slideContainer">
+								<section class="panel blue" id="second_s">
+									<div class="container">
+										<div class="second">
+											<p class="second__sub-ttl">Unified platform</p>
+											<h2 class="second__ttl">A fully integrated suite of payments products</h2>
+											<div class="second__more">
+												<p class="second__more-p">We bring together everything that’s required to build websites and apps that accept payments and send payouts globally. Stripe’s products power payments for online and in-person retailers, subscriptions businesses, software platforms and marketplaces, and everything in between.</p>
+												<p class="second__more-p">We also help companies beat fraud, send invoices, issue virtual and physical cards, get financing, manage business spend, and much more.</p>
+											</div>
+											<a class="second__link" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#price_s">Start with payments</a>
+											<div class="second__box-pic">
+												<img class="second__pic" src="img/pexels-pixabay-265087.jpg" alt="img">
+												<img class="second__pic" src="img/pexels-pixabay-373584.jpg" alt="img">
+											</div>
+										</div>
+									</div>
+								</section>
+								<section class="panel turqoise" id="third_s">
+									<div class="container">
+										<div class="third">
+											<div class="third__l">
+												<p class="second__sub-ttl">Designed for developers</p>
+												<h2 class="second__ttl third__ttl">The world’s most powerful and easy-to-use APIs</h2>
+												<p class="second__more-p">We agonize over the right abstractions so your teams don’t need to stitch together disparate systems or spend months integrating payments functionality.</p>
+												<a class="second__link" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Read the docs </a>
+												<div class="third__blocks">
+													<div class="third__blc">
+														<h6 class="third__blc-h">Tools for every stack</h6>
+														<p class="third__blc-p">We offer client and server libraries in everything from React and PHP to .NET and iOS.</p>
+														<a class="third__blc-lnk" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#fotter_s">See libraries</a>
+													</div>
+													<div class="third__blc">
+														<h6 class="third__blc-h">Prebuilt integrations</h6>
+														<p class="third__blc-p">Use integrations for systems like Shopify, WooCommerce, NetSuite, and more.</p>
+														<a class="third__blc-lnk" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#fotter_s">Explore partners</a>
+													</div>
+												</div>
+											</div>
+											<div class="third__r">
+												<img class="third__pic" src="img/123456789.png" alt="number">
+											</div>
+										</div>
+									</div>
+								</section>
+								<section class="panel green" id="price_s">
+									<div class="container">
+										<div class="price">
+											<h3 class="price__ttl">Pricing built for businesses of all sizes.<br><span class="price__w">Always know what you’ll pay.</span></h3>
+											<div class="price__items">
+												<div class="price__item price__item-w">
+													<div class="price__top">INTEGRATED</div>
+													<div class="price__text">Access a complete payments platform with simple, pay-as-you-go pricing</div>
+													<div class="price__numbers">
+														<div class="price__number"><span class="price__number-big">2.9%</span> <span class="price__number-plus">+ 30¢</span></div>
+													</div>
+													<div class="price__sub">per successful card charge</div>
+													<div class="price__points">
+														<div class="price__point">Everything you need to manage payments</div>
+														<div class="price__point">Get hundreds of feature updates each year</div>
+														<div class="price__point">No setup fees, monthly fees, or hidden fees</div>
+													</div>
+													<div class="price__bottom"><a class="price__bottom-lnk" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">GET STARTED IN MINUTES</a></div>
+												</div>
+												<div class="price__item price__item-b">
+													<div class="price__top-black">CUSTOMIZED</div>
+													<div class="price__text-black">Design a custom package for your business</div>
+													<div class="price__sub-black">Available for businesses with large payments volume or unique business models</div>
+													<table class="price__tabl">
+													<tr class="price__tblr">
+											      <td class="price__tbl">Volume discounts</td>
+											      <td class="price__tbl">Country-specific rates</td>
+											    </tr>
+													<tr class="price__tbl">
+											      <td class="price__tbl">Multi-product discounts</td>
+											      <td class="price__tbl">Interchange pricing</td>
+											    </tr>
+													</table>
+													<div class="price__bottom-black"><a class="price__bottom-lnk-b" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">CONTACT SALES</a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<section class="panel bordeaux" id="fotter_s">
+									<div class="container">
+										<div class="fotter">
+											<div class="fotter__item">
+												<h3 class="fotter__ttl">Large payments volume or unique business model? </h3>
+												<p class="fotter__txt">If you’re a business with a large payments volume or unique business model, reach out to discuss alternative pricing options. Our teams will review your current statements and can help design a customized pricing package.</p>
+												<a class="fotter__link" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">CONTACT SALES</a>
+											</div>
+											<div class="fotter__item">
+												<div class="fotter__item-g">
+
+
+													<div class="fotter__group">
+														<svg class="fotter__pic" xmlns="http://www.w3.org/2000/svg" width="110" height="120" viewBox="0 0 110 120">
+															<path d="M23.92 81.83a13.77 13.77 0 0 1-1.78-1.72c-2.49-2.85-3.55-6.48-3.55-10.9V27.27H2.82v42c0 4.41 1.07 8 3.56 10.89a11.89 11.89 0 0 0 9.41 4.28 12.56 12.56 0 0 0 2.75-.32l.05.08v-.08a20.49 20.49 0 0 0 5.34-2.21z" fill="#6b7c93"></path><path d="M41.48 63.57c0 2.68-.28 4-2.23 4s-2.35-1.22-2.35-3.65V42.53H21.14v25.15c0 4.37 1.05 8 3.52 10.8A11.75 11.75 0 0 0 34 82.72a15.31 15.31 0 0 0 7.85-2.37C40.36 86 37 88.76 32 88.76a16.45 16.45 0 0 1-5.52-1.32 29.77 29.77 0 0 1-5.38-2.52V98a38 38 0 0 0 5.38 2.79 24.11 24.11 0 0 0 8.56 1.64A21.57 21.57 0 0 0 51.59 95c3.84-4.18 5.66-9.68 5.66-16.49V42.53H41.48zM102 65.48c-1-1.24-1.53-3.67-1.53-6.72h5.49V42.53h-5.2c-1-6.09-4.63-15.26-18.19-16.28 0 0-1.61-.06-2.87 0-1 0-2.44.18-2.44.18-18.71 1.68-17.44 21.7-17.44 21.7v35c10.17 0 15.26-4.89 15.26-11.65v-4.6h7.51V51.66h-7.54v-2a8.46 8.46 0 0 1 1.69-5.5 5.58 5.58 0 0 1 4.43-1.92c1.25 0 3.55.43 4 2.24v15.98c0 5.82 1.1 10.5 3.46 14a19.92 19.92 0 0 0 7.38 6.56 20.73 20.73 0 0 0 9.81 2.41h1.73V67.31c-3.17 0-4.55-.6-5.55-1.83z" fill="#6b7c93">
+
+														</path></svg>
+														<svg class="fotter__pic" xmlns="http://www.w3.org/2000/svg" width="293" height="120" viewBox="0 0 293 120">
+															<path d="M180.42 70.62h-.11c-2.37 3-4.73 4.69-8.54 4.69-4.8 0-8.18-2.67-8.18-7.57 0-8.75 9.78-9.42 16.26-9.42h2.42a8.07 8.07 0 0 0 .21-2.26c0-2.68-2.89-3.45-5.31-3.45a20.38 20.38 0 0 0-8.71 2.06l1-5.51a27 27 0 0 1 9-1.59c5.3 0 10.3 2 10.3 8.18 0 3.55-2.63 14-3.25 19h-5.81l.72-4.08m-6.76-.35c5.15 0 6.74-3.55 7.83-7.83h-2.42c-3.35 0-8.91.56-8.91 5 0 1.85 1.76 2.78 3.5 2.78zM1.54 48.15h5l1.18-5.45 7.41-2.43-1.7 7.88h6.18l-1.08 5.05h-6.18L9.83 64.79a10.63 10.63 0 0 0-.31 2.57 2.44 2.44 0 0 0 2.62 2.58 9.26 9.26 0 0 0 3.35-.62l-1.18 5.36a19.07 19.07 0 0 1-3.7.62c-4.69 0-8-1.85-8-7a29.2 29.2 0 0 1 .87-6.19l2-8.95h-5l1.08-5.06zm20.91 0h6.91L23.7 74.67h-6.91l5.66-26.52M25 36.72h6.91l-1.45 6.6h-6.9zm25.18 17.51a9.32 9.32 0 0 0-5-1.34c-5.51 0-8.6 5.15-8.6 10.15 0 3.45 1.14 6.9 5.87 6.9A13.75 13.75 0 0 0 48 68.61l-.77 5.46a14.81 14.81 0 0 1-6.63 1.23c-6.85 0-11.28-4.58-11.28-11.43 0-9.27 6.13-16.32 15.66-16.32a24.53 24.53 0 0 1 6.9 1l-1.7 5.65zm7.57-18.18h6.9l-4.58 21.73h.11l9.63-9.63h9L66 60.25l8 14.42h-7.75L59.4 60.6h-.1l-3 14.07h-6.73zm45.88 12.1h5l1.19-5.45 7.42-2.43-1.7 7.88h6.17l-1.08 5.05h-6.17l-2.52 11.59a11.15 11.15 0 0 0-.31 2.57 2.45 2.45 0 0 0 2.63 2.58 9.26 9.26 0 0 0 3.35-.62l-1.18 5.36a19.17 19.17 0 0 1-3.71.62c-4.68 0-8-1.85-8-7a28.6 28.6 0 0 1 .88-6.19l2-8.95h-5l1-5.06z" fill="#6b7c93"></path><path d="M101.32 57.63c0-6.75-4.32-10.09-10.86-10.09-8.71 0-15.08 7.93-15.08 16.17 0 7.87 5.14 11.59 12.77 11.59a29.41 29.41 0 0 0 8.44-1.49l.88-5.46a19.54 19.54 0 0 1-8.14 1.9c-4.41 0-7-1.57-7.32-5.75v-.96a14.26 14.26 0 0 1 1.12-5.26c1.32-3.37 3.2-5.71 7.27-5.71 2.88 0 4.38 1.6 4.38 4.43a12.16 12.16 0 0 1-.15 1.81h-9.48a17 17 0 0 0-.74 4.73h16.25a28.62 28.62 0 0 0 .66-5.91zm23.37-6.54c.2-1 .41-2.11.56-2.94h6.44l-.62 3.55h.1a9.67 9.67 0 0 1 8.13-4.18c3.15 0 6.39 1.86 6.75 5h.11c1.76-3.44 5.61-5 9.32-5a7.39 7.39 0 0 1 7.37 7.27 29.94 29.94 0 0 1-1.19 7.21l-2.77 12.67H152l2.78-12.93a31.66 31.66 0 0 0 .87-5.66 3.12 3.12 0 0 0-3.25-3.19c-4.79 0-6 5.57-6.84 9.17l-2.73 12.62h-6.9l2.77-12.93a30 30 0 0 0 .88-5.66 3.12 3.12 0 0 0-3.24-3.19c-4.69 0-6 5.62-6.85 9.17l-2.73 12.62h-6.9l4.85-23.6zm84.55 2.46a11.15 11.15 0 0 0-4.6-1c-2.06 0-4.63.58-4.63 2.68 0 3.35 9 4.58 9 11.07 0 6.9-6 9-12 9a19 19 0 0 1-8.09-1.59l1.49-5.51a13 13 0 0 0 6.59 2.04c2.32 0 4.73-.78 4.73-2.93 0-4.28-8.95-4.69-8.95-11.34 0-6.23 6-8.45 11.48-8.45a28.28 28.28 0 0 1 6.46.82l-1.48 5.21zm4.41-5.4h5l1.19-5.45 7.41-2.43-1.69 7.88h6.17l-1.09 5.05h-6.17l-2.52 11.59a10.64 10.64 0 0 0-.32 2.57 2.45 2.45 0 0 0 2.62 2.58 9.08 9.08 0 0 0 3.34-.62l-1.18 5.36a19.07 19.07 0 0 1-3.7.62c-4.69 0-8-1.85-8-7a28.6 28.6 0 0 1 .88-6.19l2-8.95h-5zm46.78 3.56c.21-1.14.41-2.32.62-3.55h6.59l-.93 5h.11c1.24-2.88 4.64-5.61 7.83-5.61a10.79 10.79 0 0 1 2.62.25l-1.44 6.75a8.93 8.93 0 0 0-2.62-.41c-4.9 0-7.27 4.39-8.14 8.65l-2.47 11.9h-6.9l4.73-23zm-4.78 5.92c0-6.75-4.32-10.09-10.86-10.09-8.71 0-15.1 7.93-15.1 16.17 0 7.87 5.15 11.59 12.78 11.59a29.72 29.72 0 0 0 8.45-1.49l.88-5.46a19.5 19.5 0 0 1-8.14 1.9c-4.42 0-7-1.57-7.32-5.75v-.96a13.93 13.93 0 0 1 1.12-5.26c1.33-3.37 3.2-5.71 7.27-5.71 2.88 0 4.38 1.6 4.38 4.43a12.16 12.16 0 0 1-.15 1.81h-9.46a17 17 0 0 0-.74 4.73H255a31.62 31.62 0 0 0 .63-5.91zM287 46.56a6 6 0 1 1-6 6 6 6 0 0 1 6-6zm0 11a5.08 5.08 0 1 0-4.84-5.07 4.85 4.85 0 0 0 4.89 5.11zM284.76 49h2.67c1.61 0 2.39.65 2.39 2a1.78 1.78 0 0 1-1.8 1.94L290 56h-1.2l-1.95-3.09h-1V56h-1.14v-7zm1.14 3h1.35c.87 0 1.44-.18 1.44-1.09s-.72-1-1.44-1h-1.35z" fill="#6b7c93">
+
+														</path></svg>
+														<svg class="fotter__pic" xmlns="http://www.w3.org/2000/svg" width="185" height="120" viewBox="0 0 185 120">
+															<path d="M74 50.9a3.19 3.19 0 0 0-2.85 1.45 5.82 5.82 0 0 0-.8 2.34h7.1a4.89 4.89 0 0 0-.66-2.35A3.09 3.09 0 0 0 74 50.9zm40 .1a3.13 3.13 0 0 0-2.85 1.38 7.21 7.21 0 0 0-.93 4 7.29 7.29 0 0 0 .93 4 3.13 3.13 0 0 0 2.85 1.4 3.17 3.17 0 0 0 2.86-1.4 7.29 7.29 0 0 0 .94-4 7.2 7.2 0 0 0-.94-4A3.17 3.17 0 0 0 114 51zm-65.18 6.4a2.17 2.17 0 0 0-.89 1.92 2.38 2.38 0 0 0 .3 1.3 1.94 1.94 0 0 0 .57.59 4.55 4.55 0 0 0 2.92.58 20.65 20.65 0 0 0 2.68-.36v-4.52a20.39 20.39 0 0 0-2.7-.23 4.38 4.38 0 0 0-2.88.72zm104.8-6.5a3.17 3.17 0 0 0-2.84 1.45 5.67 5.67 0 0 0-.81 2.34h7.1a4.89 4.89 0 0 0-.66-2.35 3.09 3.09 0 0 0-2.79-1.44z" fill="#6b7c93"></path><path d="M140.8 16.21a36.48 36.48 0 0 0-15 3.18 30.4 30.4 0 0 0-26.44-15.7A30.06 30.06 0 0 0 77.6 13a33.33 33.33 0 0 0-57.1 33.46 29 29 0 0 0 14.32 54 28.57 28.57 0 0 0 5.89-.61 30.85 30.85 0 0 0 57.36 1.39 27.06 27.06 0 0 0 35.44-11.13 36.56 36.56 0 0 0 7.29.73 37.33 37.33 0 0 0 0-74.65zM42.93 59.52c0 3-2.19 4.89-5.71 4.89a10.43 10.43 0 0 1-5.13-1.2 11.07 11.07 0 0 1-1-.59s-.18-.11-.07-.39l.69-1.93a.28.28 0 0 1 .46-.16l.58.37a8.34 8.34 0 0 0 4.54 1.3c1.53 0 2.48-.81 2.48-1.9v-.06c0-1.19-1.46-1.64-3.16-2.16l-.37-.11c-2.31-.67-4.79-1.58-4.79-4.58 0-2.79 2.25-4.74 5.47-4.74h.36a9.91 9.91 0 0 1 5 1.36.32.32 0 0 1 .17.39c-.06.17-.65 1.75-.71 1.93s-.47.11-.47.11a10.17 10.17 0 0 0-4.47-1.15c-1.37 0-2.25.73-2.25 1.71v.06c0 1.15 1.51 1.64 3.25 2.21l.31.09c2.31.74 4.78 1.75 4.78 4.54zm14.41 3.92l-.69.18c-.34.08-1.53.32-2.51.49a18.93 18.93 0 0 1-3 .25 11.84 11.84 0 0 1-2.64-.27 5.48 5.48 0 0 1-2-.88 4 4 0 0 1-1.3-1.56 5.22 5.22 0 0 1-.46-2.27 4.72 4.72 0 0 1 .54-2.29 4.64 4.64 0 0 1 1.44-1.64 6.41 6.41 0 0 1 2.08-1 9.29 9.29 0 0 1 2.45-.32h1.55s.79.07 1.64.19V54c0-1.33-.28-2-.82-2.37a4.06 4.06 0 0 0-2.5-.63 10.1 10.1 0 0 0-4.33 1l-.17.08a.25.25 0 0 1-.32-.16L45.59 50a.32.32 0 0 1 .09-.4 9.64 9.64 0 0 1 3.07-1.12 15.76 15.76 0 0 1 2.66-.25 6.73 6.73 0 0 1 4.59 1.4A5.55 5.55 0 0 1 57.56 54v9.1a.31.31 0 0 1-.22.34zm6.68.29a.28.28 0 0 1-.28.3H61.1a.29.29 0 0 1-.29-.3V42.5a.29.29 0 0 1 .29-.3h2.64a.28.28 0 0 1 .28.3zm16.47-6.83a.29.29 0 0 1-.29.26h-9.94a4.68 4.68 0 0 0 1.16 3.31 4.74 4.74 0 0 0 3.4 1.17 9.52 9.52 0 0 0 4.08-.74.28.28 0 0 1 .37.17l.66 1.83c.13.3 0 .41-.09.47a10.27 10.27 0 0 1-5 1 10 10 0 0 1-3.61-.59 6.51 6.51 0 0 1-2.5-1.65 6.61 6.61 0 0 1-1.44-2.53 10.67 10.67 0 0 1-.45-3.18 11.14 11.14 0 0 1 .43-3.17 7.27 7.27 0 0 1 1.35-2.59 6.54 6.54 0 0 1 2.29-1.74 7.79 7.79 0 0 1 3.29-.64 7.27 7.27 0 0 1 2.85.58 5.7 5.7 0 0 1 1.88 1.44 6.06 6.06 0 0 1 1.28 2.32 10.8 10.8 0 0 1 .28 4.28zm8.27 7.51a10.43 10.43 0 0 1-5.13-1.2 11.07 11.07 0 0 1-1-.59s-.18-.11-.08-.39l.7-1.93a.3.3 0 0 1 .46-.16l.58.37a8.34 8.34 0 0 0 4.54 1.3c1.53 0 2.48-.81 2.48-1.9v-.06c0-1.19-1.46-1.64-3.16-2.16l-.37-.11C85.48 56.91 83 56 83 53c0-2.79 2.25-4.74 5.47-4.74h.36a9.91 9.91 0 0 1 5 1.36.32.32 0 0 1 .17.38c-.06.17-.65 1.75-.71 1.93s-.47.11-.47.11a10.17 10.17 0 0 0-4.47-1.15c-1.37 0-2.25.73-2.25 1.71v.06c0 1.15 1.51 1.64 3.25 2.21l.31.09c2.31.74 4.78 1.75 4.78 4.54v.05c.03 2.99-2.16 4.86-5.68 4.86zM106.14 51a.34.34 0 0 1-.34.29h-3.27l-2.24 12.68a19.15 19.15 0 0 1-.88 3.35 6.62 6.62 0 0 1-1.29 2.22 4.59 4.59 0 0 1-1.84 1.28 7.23 7.23 0 0 1-2.44.38 6.07 6.07 0 0 1-1.46-.2 8 8 0 0 1-.91-.26.3.3 0 0 1-.15-.4l.74-2a.27.27 0 0 1 .36-.16 2.2 2.2 0 0 0 .53.17 4.36 4.36 0 0 0 .8.09 3.56 3.56 0 0 0 1.17-.17 1.78 1.78 0 0 0 .91-.7 5.27 5.27 0 0 0 .7-1.41 15.67 15.67 0 0 0 .59-2.46l2.23-12.45h-2.2c-.26 0-.35-.12-.32-.32l.37-2.07a.33.33 0 0 1 .33-.29h2.26l.12-.67a8.23 8.23 0 0 1 2-4.51 5.73 5.73 0 0 1 4.22-1.51 7.75 7.75 0 0 1 1.35.1c.38.07.66.14 1 .23a.27.27 0 0 1 .18.35l-.76 2.09c-.06.16-.1.25-.43.15-.08 0-.2-.06-.51-.12a3.83 3.83 0 0 0-.81-.08 3.5 3.5 0 0 0-1.07.15 2 2 0 0 0-.83.52 2.8 2.8 0 0 0-.7 1.06 13.65 13.65 0 0 0-.53 2.24h3.18c.27 0 .35.13.33.32zm14.56 8.52a7.11 7.11 0 0 1-1.34 2.48 6.31 6.31 0 0 1-2.26 1.7 8.41 8.41 0 0 1-6.29 0 6.31 6.31 0 0 1-2.26-1.7 7.11 7.11 0 0 1-1.34-2.56 11.79 11.79 0 0 1 0-6.31 7 7 0 0 1 1.34-2.55 6.44 6.44 0 0 1 2.25-1.72 7.43 7.43 0 0 1 3.16-.63 7.33 7.33 0 0 1 3.14.63 6.57 6.57 0 0 1 2.26 1.71 7.11 7.11 0 0 1 1.34 2.56 11.79 11.79 0 0 1 0 6.31zM133 49.09c-.09.27-.57 1.64-.74 2.09-.07.17-.17.29-.37.27a5.34 5.34 0 0 0-1.09-.14 4.84 4.84 0 0 0-1.33.19 3 3 0 0 0-1.23.74 3.64 3.64 0 0 0-.87 1.47 8.64 8.64 0 0 0-.33 2.61v7.41a.3.3 0 0 1-.3.3h-2.62a.29.29 0 0 1-.3-.3V48.89a.28.28 0 0 1 .28-.3h2.55a.29.29 0 0 1 .29.3v1.21a4.5 4.5 0 0 1 1.68-1.24 4.92 4.92 0 0 1 2.57-.41 8.93 8.93 0 0 1 1.66.28.27.27 0 0 1 .15.36zm12.43 14.51a11.88 11.88 0 0 1-4.16.75 7.42 7.42 0 0 1-5.8-2.19 8.43 8.43 0 0 1-1.95-5.84 10.08 10.08 0 0 1 .47-3.17 7.33 7.33 0 0 1 1.43-2.55 6.9 6.9 0 0 1 2.37-1.72 8.15 8.15 0 0 1 3.27-.63 14.39 14.39 0 0 1 2.21.15 11 11 0 0 1 2 .5.25.25 0 0 1 .18.34c-.27.79-.46 1.29-.72 2-.11.3-.34.2-.34.2a10 10 0 0 0-3.11-.44 3.84 3.84 0 0 0-3.28 1.44 6.29 6.29 0 0 0-1.13 3.87 5.65 5.65 0 0 0 1.27 4 4.46 4.46 0 0 0 3.36 1.26 10 10 0 0 0 1.61-.12 6.48 6.48 0 0 0 1.36-.38.28.28 0 0 1 .38.17l.72 2a.26.26 0 0 1-.14.36zm14.73-6.7a.29.29 0 0 1-.29.26h-9.94a4.68 4.68 0 0 0 1.16 3.31 4.72 4.72 0 0 0 3.4 1.17 9.52 9.52 0 0 0 4.08-.74.29.29 0 0 1 .38.17l.65 1.83c.13.3 0 .41-.09.47a10.27 10.27 0 0 1-5 1 10 10 0 0 1-3.61-.59 6.51 6.51 0 0 1-2.5-1.65 6.61 6.61 0 0 1-1.4-2.54 10.67 10.67 0 0 1-.45-3.18 11.14 11.14 0 0 1 .43-3.17 7.27 7.27 0 0 1 1.35-2.59 6.54 6.54 0 0 1 2.29-1.74 7.77 7.77 0 0 1 3.28-.64 7.25 7.25 0 0 1 2.86.58 5.7 5.7 0 0 1 1.88 1.44 6.06 6.06 0 0 1 1.28 2.32 10.8 10.8 0 0 1 .24 4.29z" fill="#6b7c93">
+
+														</path></svg>
+													</div>
+													<div class="fotter__group">
+														<svg class="fotter__pic" xmlns="http://www.w3.org/2000/svg" width="155" height="120" viewBox="0 0 155 120">
+															<path d="M146.83 78.86a3.91 3.91 0 0 0 2 .53 3.86 3.86 0 0 0 2-.53 3.52 3.52 0 0 0 1.48-1.48 4 4 0 0 0 .53-2 4 4 0 0 0-.53-2 3.57 3.57 0 0 0-1.5-1.48 4.22 4.22 0 0 0-2-.53 4.4 4.4 0 0 0-2 .53 3.77 3.77 0 0 0-1.51 1.48 4 4 0 0 0-.53 2 4 4 0 0 0 .53 2 3.58 3.58 0 0 0 1.48 1.48zm-.9-5.16a3.26 3.26 0 0 1 1.25-1.25 3.54 3.54 0 0 1 1.64-.44 3.58 3.58 0 0 1 1.65.44 3.24 3.24 0 0 1 1.24 1.25 3.36 3.36 0 0 1 .44 1.69 3.3 3.3 0 0 1-.44 1.66 3.07 3.07 0 0 1-1.22 1.23 3.34 3.34 0 0 1-1.67.44 3.3 3.3 0 0 1-1.66-.44 3.1 3.1 0 0 1-1.23-1.23 3.33 3.33 0 0 1-.46-1.66 3.38 3.38 0 0 1 .46-1.69z" fill="#6b7c93"></path><path d="M147.76 75.76h.41a.8.8 0 0 1 .56.16.35.35 0 0 1 .09.07 4.18 4.18 0 0 1 .65.92l.39.7h.83l-.5-.86a6.16 6.16 0 0 0-.65-.85 1.11 1.11 0 0 0-.37-.23 1.39 1.39 0 0 0 .9-.4 1.14 1.14 0 0 0 .35-.83 1 1 0 0 0-.21-.62 1 1 0 0 0-.56-.42 2.39 2.39 0 0 0-.83-.12h-1.76v4.35h.7v-1.87zm0-1.9h1.06a3.37 3.37 0 0 1 .44.07.54.54 0 0 1 .3.23.56.56 0 0 1 .09.35.57.57 0 0 1-.21.46 1 1 0 0 1-.62.19h-1.06v-1.3zm-103.85.49h6.24l-6.24-10.41-5.28-8.76-22.4 13.46 3.42 5.71h24.26zm58.09 0h30.5l-18.99-31.64-21-34.91-8.65 5.2-13.73 8.25 13.73 22.87L102 74.35zM91.33 84.78a13.54 13.54 0 0 0-7.4-2.2h-.07a13.74 13.74 0 0 0 0 27.47h.07a13.54 13.54 0 0 0 7.4-2.2v1.44h6.32V74.35h-6.32v10.43zm0 13a7.58 7.58 0 0 1-7.4 6.13h-.07a7.55 7.55 0 0 1 0-15.1h.07a7.55 7.55 0 0 1 7.4 6.1v2.87zm29.67-13a13.49 13.49 0 0 0-7.4-2.2h-.07a13.74 13.74 0 0 0 0 27.47h.07a13.49 13.49 0 0 0 7.4-2.2v1.44h6.31v-26H121v1.51zm0 13a7.59 7.59 0 0 1-7.4 6.13h-.07a7.55 7.55 0 0 1 0-15.1h.07a7.56 7.56 0 0 1 7.4 6.1v2.87zm28.74-3.18c-.23-.11-.55-.23-.92-.37a70.18 70.18 0 0 0-6.89-1.78c-2.8-.62-4.21-1.43-4.21-2.45a2.18 2.18 0 0 1 .74-1.71 5.47 5.47 0 0 1 3.47-.83 5 5 0 0 1 3.63 1.09 4.5 4.5 0 0 1 1 2.33h6.71a7.44 7.44 0 0 0-4-7.07 2.34 2.34 0 0 0-.44-.24 17.42 17.42 0 0 0-7.28-1.29c-3.68 0-6.45 1-8.3 2.94A8.06 8.06 0 0 0 131 91c0 2.82 1.39 4.86 4.21 6.18a45.09 45.09 0 0 0 7.77 2.1c2.75.6 4.14 1.46 4.14 2.55a2.18 2.18 0 0 1-.88 1.71 5.32 5.32 0 0 1-3.47 1 7.21 7.21 0 0 1-4.37-1 3.31 3.31 0 0 1-1.3-2.8h-7a7.72 7.72 0 0 0 4 7.15 17.05 17.05 0 0 0 8.46 1.85 15.72 15.72 0 0 0 6.2-1.16c.37-.16.69-.32 1-.51a7.73 7.73 0 0 0 4.14-7.28c0-2.73-1.41-4.76-4.26-6.11zM21.45 84.78a13.61 13.61 0 0 0-7.45-2.2 13.74 13.74 0 0 0 0 27.47 13.61 13.61 0 0 0 7.42-2.2v1.44h6.32v-26h-6.29v1.51zm0 13a7.58 7.58 0 0 1-7.45 6.1 7.55 7.55 0 0 1 0-15.1 7.56 7.56 0 0 1 7.42 6.1v2.87zm39.41-17.26h6.86v-6.03h-6.86v6.03zm0 28.77h6.86V82.58h-6.86v26.71zM51.4 84.78a13.61 13.61 0 0 0-7.4-2.2h-.07a13.74 13.74 0 0 0 0 27.47H44a13.61 13.61 0 0 0 7.42-2.2v1.44h6.31V74.35H51.4v10.43zm0 13a7.59 7.59 0 0 1-7.4 6.1h-.07a7.55 7.55 0 0 1 0-15.1H44a7.57 7.57 0 0 1 7.42 6.1v2.87zm39.91-23.43l-7.45-12.44-18.28-30.43-21.67 13.04-.74.44.74 1.22 16.92 28.17h30.48z" fill="#6b7c93">
+
+														</path></svg>
+														<svg class="fotter__pic" xmlns="http://www.w3.org/2000/svg" width="316" height="120" viewBox="0 0 316 120">
+															<path d="M115.63 75.74h7.19l-1.22-5.58V37h-6.87v15.11a10.77 10.77 0 0 0-8.28-3.79c-6.87 0-12.2 5.72-12.2 14s5.33 14 12.2 14a10.67 10.67 0 0 0 8.41-4l.77 3.4zm135.88-20a6.44 6.44 0 0 1 3.86 1.26l3.27-7.32a9.35 9.35 0 0 0-5-1.35 8.31 8.31 0 0 0-7.32 4l-.7-3.4h-7.07l1.16 5.26v21.62h6.87V58.66a5.25 5.25 0 0 1 4.94-2.89zm20.1 13.36c-4 0-6.93-2.63-6.93-6.74s2.95-6.75 6.93-6.75 6.94 2.57 6.94 6.75-2.89 6.74-6.94 6.74zm-170.68-6.78c0-4.17 2.95-6.74 6.93-6.74s6.94 2.57 6.94 6.74-2.89 6.75-6.94 6.75a6.49 6.49 0 0 1-6.93-6.75zm201.19 6.81c-4 0-6.94-2.63-6.94-6.74s2.95-6.75 6.94-6.75 6.93 2.57 6.93 6.75a6.59 6.59 0 0 1-6.93 6.74zM139.52 55.2c3.53 0 5.84 1.67 6.61 4.75h-13.22c.7-3.15 3.08-4.75 6.61-4.75zm82.13 0c3.53 0 5.85 1.67 6.62 4.75H215c.83-3.15 3.15-4.75 6.61-4.75zm-33.52 20.54h11.05l7.19-26.9h-7.51l-5.21 21.83-5.26-21.77H181l7.13 26.84zm-17.66 0h6.87v-26.9h-6.87zm-29.92.52a20.06 20.06 0 0 0 10.72-3.08l-2.63-5.91a16.76 16.76 0 0 1-8 2c-3.59 0-6.1-1.41-7.25-4h19.39a16.06 16.06 0 0 0 .32-3.15c0-8.35-5.78-13.87-13.42-13.87s-13.42 5.65-13.42 14c-.07 8.54 5.58 14 14.32 14zm175.11-13.94c0-8.34-5.77-14-13.54-14s-13.55 5.72-13.55 14 5.78 14 13.55 14 13.54-5.65 13.54-14zm-93 14a19.49 19.49 0 0 0 10.72-3.08l-2.63-5.91a16.77 16.77 0 0 1-8 2.06c-3.6 0-6.1-1.42-7.26-4h19.4a16 16 0 0 0 .32-3.14c0-8.35-5.78-13.88-13.42-13.88S208.3 54 208.3 62.32c0 8.61 5.58 14 14.32 14zm49 0c7.84 0 13.55-5.71 13.55-14s-5.78-14-13.55-14-13.55 5.72-13.55 14 5.72 14 13.55 14zm-114.17-.58h6.87V37h-6.87v38.74zm16.5-30.56a4.37 4.37 0 1 0-4.37-4.37 4.32 4.32 0 0 0 4.37 4.37zM55.85 12.49l-3.92 37.25-6.68-31.4-21.06 4.43 6.61 31.4L.49 60.59l5.4 25L59.25 97l12.2-27.29 5.78-55-21.38-2.22zM39 66.56c-1.09 1-2.51.9-4.11.39s-2.18-2.31-1.67-4.63c.45-1.67 2.44-1.92 3.53-1.92a2.56 2.56 0 0 1 1.16.25c.7.32 1.92 1 2.18 2.06A3.71 3.71 0 0 1 39 66.56zm15.47 1.67c-.83 1.41-2.89 1.61-5 .58-1.47-.71-1.47-2.38-1.26-3.47a3 3 0 0 1 .7-1.6 3.36 3.36 0 0 1 2.25-1.48 3.9 3.9 0 0 1 3.66 1.93c.77 1.28.39 2.69-.39 4z" fill="#6b7c93">
+
+														</path></svg>
+														<svg class="fotter__pic" xmlns="http://www.w3.org/2000/svg" width="316" height="120" viewBox="0 0 316 120">
+															<path d="M115.63 75.74h7.19l-1.22-5.58V37h-6.87v15.11a10.77 10.77 0 0 0-8.28-3.79c-6.87 0-12.2 5.72-12.2 14s5.33 14 12.2 14a10.67 10.67 0 0 0 8.41-4l.77 3.4zm135.88-20a6.44 6.44 0 0 1 3.86 1.26l3.27-7.32a9.35 9.35 0 0 0-5-1.35 8.31 8.31 0 0 0-7.32 4l-.7-3.4h-7.07l1.16 5.26v21.62h6.87V58.66a5.25 5.25 0 0 1 4.94-2.89zm20.1 13.36c-4 0-6.93-2.63-6.93-6.74s2.95-6.75 6.93-6.75 6.94 2.57 6.94 6.75-2.89 6.74-6.94 6.74zm-170.68-6.78c0-4.17 2.95-6.74 6.93-6.74s6.94 2.57 6.94 6.74-2.89 6.75-6.94 6.75a6.49 6.49 0 0 1-6.93-6.75zm201.19 6.81c-4 0-6.94-2.63-6.94-6.74s2.95-6.75 6.94-6.75 6.93 2.57 6.93 6.75a6.59 6.59 0 0 1-6.93 6.74zM139.52 55.2c3.53 0 5.84 1.67 6.61 4.75h-13.22c.7-3.15 3.08-4.75 6.61-4.75zm82.13 0c3.53 0 5.85 1.67 6.62 4.75H215c.83-3.15 3.15-4.75 6.61-4.75zm-33.52 20.54h11.05l7.19-26.9h-7.51l-5.21 21.83-5.26-21.77H181l7.13 26.84zm-17.66 0h6.87v-26.9h-6.87zm-29.92.52a20.06 20.06 0 0 0 10.72-3.08l-2.63-5.91a16.76 16.76 0 0 1-8 2c-3.59 0-6.1-1.41-7.25-4h19.39a16.06 16.06 0 0 0 .32-3.15c0-8.35-5.78-13.87-13.42-13.87s-13.42 5.65-13.42 14c-.07 8.54 5.58 14 14.32 14zm175.11-13.94c0-8.34-5.77-14-13.54-14s-13.55 5.72-13.55 14 5.78 14 13.55 14 13.54-5.65 13.54-14zm-93 14a19.49 19.49 0 0 0 10.72-3.08l-2.63-5.91a16.77 16.77 0 0 1-8 2.06c-3.6 0-6.1-1.42-7.26-4h19.4a16 16 0 0 0 .32-3.14c0-8.35-5.78-13.88-13.42-13.88S208.3 54 208.3 62.32c0 8.61 5.58 14 14.32 14zm49 0c7.84 0 13.55-5.71 13.55-14s-5.78-14-13.55-14-13.55 5.72-13.55 14 5.72 14 13.55 14zm-114.17-.58h6.87V37h-6.87v38.74zm16.5-30.56a4.37 4.37 0 1 0-4.37-4.37 4.32 4.32 0 0 0 4.37 4.37zM55.85 12.49l-3.92 37.25-6.68-31.4-21.06 4.43 6.61 31.4L.49 60.59l5.4 25L59.25 97l12.2-27.29 5.78-55-21.38-2.22zM39 66.56c-1.09 1-2.51.9-4.11.39s-2.18-2.31-1.67-4.63c.45-1.67 2.44-1.92 3.53-1.92a2.56 2.56 0 0 1 1.16.25c.7.32 1.92 1 2.18 2.06A3.71 3.71 0 0 1 39 66.56zm15.47 1.67c-.83 1.41-2.89 1.61-5 .58-1.47-.71-1.47-2.38-1.26-3.47a3 3 0 0 1 .7-1.6 3.36 3.36 0 0 1 2.25-1.48 3.9 3.9 0 0 1 3.66 1.93c.77 1.28.39 2.69-.39 4z" fill="#6b7c93">
+
+														</path></svg>
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+						<script>
+							$(function () { // wait for document ready
+								// init
+								var controller = new ScrollMagic.Controller();
+
+								// define movement of panels
+								var wipeAnimation = new TimelineMax()
+									// animate to second panel
+									.to("#slideContainer", 0.5, {z: -150})		// move back in 3D space
+									.to("#slideContainer", 1,   {x: "-25%"})	// move in to first panel
+									.to("#slideContainer", 0.5, {z: 0})				// move back to origin in 3D space
+									// animate to third panel
+									.to("#slideContainer", 0.5, {z: -150, delay: 1})
+									.to("#slideContainer", 1,   {x: "-50%"})
+									.to("#slideContainer", 0.5, {z: 0})
+									// animate to forth panel
+									.to("#slideContainer", 0.5, {z: -150, delay: 1})
+									.to("#slideContainer", 1,   {x: "-75%"})
+									.to("#slideContainer", 0.5, {z: 0});
+
+								// create scene to pin and link animation
+								new ScrollMagic.Scene({
+										triggerElement: "#pinContainer",
+										triggerHook: "onLeave",
+										duration: "500%"
+									})
+									.setPin("#pinContainer")
+									.setTween(wipeAnimation)
+									// .addIndicators() // add indicators (requires plugin)
+									.addTo(controller);
+							});
+						</script>
+					</section>
+				</div>
+			</div>
+		</div>
+
+
+		<script type="text/javascript" src="libs/bootstrap/popper.min.js"></script>
+		<script type="text/javascript" src="libs/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="libs/assets/js/tracking.js"></script>
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
